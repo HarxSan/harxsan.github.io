@@ -1,4 +1,8 @@
-# MiMo-V2.6-Pro-RL vs MiMo-V2.6-Flash-RL
+---
+layout: page
+title: "MiMo-V2.6-Pro-RL vs MiMo-V2.6-Flash-RL"
+description: "Config and weight-storage diff of MiMo-V2.6-Pro-RL vs MiMo-V2.6-Flash-RL, read from each model's config.json and safetensors headers."
+---
 
 ## Changed fields
 
