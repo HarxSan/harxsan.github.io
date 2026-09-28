@@ -1,0 +1,27 @@
+title: HarxSan
+description: >-
+  Small-scale reproductions of post-training and agent-RL claims, with logs
+  and negative results, plus an open-model architecture tracker.
+url: "https://harxsan.github.io"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: classic
+
+author: HarxSan
+twitter_username: harxsan
+github_username: HarxSan
+
+permalink: /:year/:month/:day/:title/
+
+collections:
+  models:
+    output: true
+    permalink: /models/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
