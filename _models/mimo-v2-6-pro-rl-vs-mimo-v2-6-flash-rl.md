@@ -10,7 +10,6 @@ hidden_size | 6144 | 4096
 kv_heads | 8 | 4
 layers | 70 | 48
 moe_experts_routed | 384 | 256
-rope_theta | 10000000 | 10000000.0
 
 ## Key unchanged fields
 
@@ -20,6 +19,7 @@ head_dim | 192
 max_position_embeddings | 1048576
 moe_active_experts | 8
 moe_intermediate_size | 2048
+rope_theta | 10000000
 tied_embeddings | False
 vocab_size | 152576
 
