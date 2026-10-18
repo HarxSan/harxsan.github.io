@@ -36,7 +36,7 @@ GPT-5.4 is the main exception to a pattern the paper reports on yes/no and multi
 
 ## The evidence
 
-![Open-ended answers keep visible inference with thinking off](/assets/turning-thinking-off-doesn-t-stop-a-model-from-reasoning-out-loud.png)
+![A real reply from DeepSeek-V4-Flash with its thinking mode switched off: asked a multiple-choice question, it still writes a sentence of reasoning before answering B. 99.9% of its replies to open-ended questions still showed reasoning. A stricter answer-only prompt raised answer-only replies from about 0 to about 40% across five models, but accuracy fell about 15 points.](/assets/turning-thinking-off-doesn-t-stop-a-model-from-reasoning-out-loud.png)
 
 The chart shows the paper's headline case: with thinking disabled, DeepSeek-V4-Flash still shows visible explicit inference in 99.9% of its open-ended responses.
 
