@@ -40,7 +40,7 @@ Neither of the two long-form exceptions holds up well. Faith has the highest pre
 
 FactGRPO is the other exception. Its relevance-filtered biography F1@K is 0.342, against 0.325 for the base model, and the difference is marked significant. But its reward counts a claim as correct whenever evidence supports it, even if the claim is irrelevant to the prompt. Of its biography responses, 36% contain such claims.
 
-![Bar chart: FactGRPO's one significant long-form gain is small](/assets/five-factuality-post-training-methods-retrained-on-one-base-model-show-almost-no-significant-gains.png)
+![Five factuality methods retrained the same way on one open model. On TruthfulQA, a test of common misconceptions, Faith and FactGRPO got about 25 and 18 fewer answers right per 100 questions than the starting model; the other three moved 2 or fewer. The training rewarded how answers looked and how long they were more than whether they were true; Faith's best score came from one-sentence answers.](/assets/five-factuality-post-training-methods-retrained-on-one-base-model-show-almost-no-significant-gains.png)
 
 The chart shows that FactGRPO's one significant long-form gain is small.
 
