@@ -38,7 +38,7 @@ GPT-5.4 is the main exception to a pattern the paper reports on yes/no and multi
 
 ![A real reply from DeepSeek-V4-Flash with its thinking switch off: asked a multiple-choice question about US military spending in 2017, it still writes a sentence of reasoning, then answers B. On open-ended questions every model tested almost never gave just the answer; this one reasoned out loud in 99.9% of replies. An 'answer only' prompt made about 40% of replies just the answer, and accuracy fell about 15 percentage points.](/assets/turning-thinking-off-doesn-t-stop-a-model-from-reasoning-out-loud.png)
 
-The chart shows the paper's headline case: with thinking disabled, DeepSeek-V4-Flash still shows visible explicit inference in 99.9% of its open-ended responses.
+The picture walks through one real reply and then the paper's headline case: with thinking disabled, DeepSeek-V4-Flash still shows visible explicit inference in 99.9% of its open-ended responses.
 
 The first fix most people would reach for is a stricter prompt. Across the five models with thinking fully disabled, strict answer-only prompting raises mean ETR from near zero to roughly 40%. But the same prompting also reduces mean accuracy by about 15 percentage points. Both are means across the five models, and the paper itself hedges them with "roughly" and "about".
 
