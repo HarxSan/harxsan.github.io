@@ -8,8 +8,6 @@ image: /assets/axion-1-0-much-of-the-gain-shows-up-before-reinforcement-learning
 
 Before you build a reinforcement learning step for your AI agent, look at what the earlier training steps already gave it. That is the practical lesson from Axion 1.0, an open recipe for an agent that searches the web and runs Python.
 
-![Hand-drawn bar chart. The bigger Axion 1.0 model's score on 130 hard exam questions: 40.8% at the start, 68.5% after stage I, 68.5% after stage II, 74.6% after reinforcement learning. Most of the climb is the first step.](/assets/axion-1-0-much-of-the-gain-shows-up-before-reinforcement-learning-starts.png)
-
 ## What the recipe is
 
 Axion 1.0 trains in three steps. The first two are rounds of fine-tuning, where the model studies worked examples. The third is reinforcement learning, where the model practises on tasks and is rewarded for good results. Stage I trains the model to reason before it has to retrieve outside information. Stage II starts from the Stage I result with the same settings.
@@ -19,6 +17,8 @@ The authors release the whole recipe, including data, prompts and training code.
 ## What the scores show
 
 The paper scored the model after each step on a 130-question subset of the HLE benchmark, a set of hard exam questions. These scores do not compare directly with the paper's headline results.
+
+![Hand-drawn bar chart. The bigger Axion 1.0 model's score on 130 hard exam questions: 40.8% at the start, 68.5% after stage I, 68.5% after stage II, 74.6% after reinforcement learning. Most of the climb is the first step.](/assets/axion-1-0-much-of-the-gain-shows-up-before-reinforcement-learning-starts.png)
 
 The bigger model, called 122B, went from 40.8% to 68.5% after the first step. It stayed at 68.5% after the second step but reached 74.6% after reinforcement learning. The smaller model, called 35B, moved in smaller steps: 47.7% to 59.2%, then 66.2%, then 70.0%. In both models, most of the climb came before the reinforcement learning step.
 
